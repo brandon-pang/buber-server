@@ -1,0 +1,4 @@
+Query{
+    something:String!
+    name:String!z
+}
