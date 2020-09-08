@@ -7,7 +7,7 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Sign In / Sign Up with Facebook
 - [x] Sign In / Sign Up with Email
 - [x] Start Phone Number Verification
-- [ ] Complete Phone Number Verification
+- [x] Complete Phone Number Verification
 ---
 
 ### Private Resolvers:
