@@ -5,14 +5,17 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 ---
 ### Public Resolvers
 - [x] Sign In / Sign Up with Facebook
-- [x] Sign In / Sign Up with Email
+- [x] Sign In with Email
 - [x] Start Phone Number Verification
 - [x] Complete Phone Number Verification
+- [ ] Sign Up with Email
 ---
-
-### Private Resolvers:
+### Authuentication
 - [ ] Generate JWT
 - [ ] Verifiy JWT
+
+---
+### Private Resolvers
 - [ ] Verify Email
 - [ ] Get / Update my profile
 - [ ] Toggle Driving Mode
