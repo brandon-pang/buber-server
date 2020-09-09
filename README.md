@@ -8,10 +8,10 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Sign In with Email
 - [x] Start Phone Number Verification
 - [x] Complete Phone Number Verification
-- [ ] Sign Up with Email
+- [x] Sign Up with Email
 ---
 ### Authuentication
-- [ ] Generate JWT
+- [x] Generate JWT
 - [ ] Verifiy JWT
 
 ---
