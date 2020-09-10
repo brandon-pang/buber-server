@@ -6,7 +6,7 @@ const PhoneNumber = process.env.TWILIO_PHONE;
 
 const twilioClient = Twilio(AccountSid, AuthToken);
 
-export const sendSMS = (to: string, body: string) => {
+const sendSMS = (to: string, body: string) => {
     return twilioClient.messages.create({
         body,
         to,

@@ -12,12 +12,15 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 ---
 ### Authuentication
 - [x] Generate JWT
-- [ ] Verifiy JWT
+- [x] Verifiy JWT
 
 ---
 ### Private Resolvers
+- [x] Get My Profile
+- [ ] Request Email Verification
+- [ ] Complete Email Verification
 - [ ] Verify Email
-- [ ] Get / Update my profile
+- [ ] Update my profile
 - [ ] Toggle Driving Mode
 - [ ] Report Location / Orientaion
 - [ ] Add Place
