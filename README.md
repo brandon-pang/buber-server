@@ -17,9 +17,8 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 ---
 ### Private Resolvers
 - [x] Get My Profile
-- [ ] Request Email Verification
-- [ ] Complete Email Verification
-- [ ] Verify Email
+- [x] Request Email Verification
+- [x] Complete Email Verification
 - [ ] Update my profile
 - [ ] Toggle Driving Mode
 - [ ] Report Location / Orientaion
