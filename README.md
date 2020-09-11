@@ -19,9 +19,9 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Get My Profile
 - [x] Request Email Verification
 - [x] Complete Email Verification
-- [ ] Update my profile
-- [ ] Toggle Driving Mode
-- [ ] Report Location / Orientaion
+- [x] Update my profile
+- [x] Toggle Driving Mode
+- [x] Report Location / Orientaion
 - [ ] Add Place
 - [ ] Edit Place
 - [ ] Delete Place
