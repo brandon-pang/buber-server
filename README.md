@@ -27,7 +27,7 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Delete Place
 - [x] Get My Place
 - [x] See Nearby Drivers
-- [ ] Subscribe to Nearby Drivers
+- [x] Subscribe to Nearby Drivers
 - [ ] Request a Ride
 - [ ] Get Nearby Rides
 - [ ] Subscribe to Nearby Ride Requests
