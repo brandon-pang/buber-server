@@ -28,19 +28,12 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Get My Place
 - [x] See Nearby Drivers
 - [x] Subscribe to Nearby Drivers
-- [ ] Request a Ride
-- [ ] Get Nearby Rides
-- [ ] Subscribe to Nearby Ride Requests
-- [ ] Subscribe to Ride Status
-- [ ] Get Chat Room Messages
-- [ ] Subscribe to Chat Room Messages
-- [ ] Send a Chat Message
-<br>
-<br>
-
-
-## Code Challenge
----
+- [x] Request a Ride
+- [x] Get Nearby Rides
+- [x] Subscribe to Nearby Ride Requests
+- [x] Subscribe to Ride Status
+- [x] Get Chat Room Messages
+- [x] Subscribe to Chat Room Messages
+- [x] Send a Chat Message
 - [ ] Get Ride History
 - [ ] See Ride Detail
-

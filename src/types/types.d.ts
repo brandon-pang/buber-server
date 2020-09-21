@@ -1,2 +1,8 @@
 export type verificationTarget = "PHONE" | "EMAIL";
-export type rideStatus = "ACCEPTED" | "FINSHED" | "CANCELED" | "REQUESTING" | "ONROUTE";
+
+export type rideStatus =
+    | "ACCEPTED"
+    | "FINISHED"
+    | "CANCELED"
+    | "REQUESTING"
+    | "ONROUTE";

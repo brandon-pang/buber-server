@@ -17,7 +17,11 @@
     "predev": "yarn run types",
     "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql",
     "pretypes": "gql-merge --out-file ./src/schema.graphql ./src/api/**/*.graphql",
-    "types": "graphql-to-typescript ./src/schema.graphql ./src/types/graph.d.ts"
+    "types": "graphql-to-typescript ./src/schema.graphql ./src/types/graph.d.ts",
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "postbuild": "cd src && copy ./api/**/*.graphql ../dist/api",
+    "start": "cd dist && node ."
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
@@ -35,12 +39,12 @@
     "mailgun-js": "^0.22.0",
     "merge-graphql-schemas": "^1.5.2",
     "morgan": "^1.9.0",
-    "nodemon": "^1.17.5",
     "pg": "^8.3.3",
-    "ts-node": "^7.0.0",
-    "tslint-config-prettier": "^1.13.0",
     "twilio": "^3.49.1",
     "typeorm": "^0.2.25",
+    "nodemon": "^1.17.5",
+    "ts-node": "^7.0.0",
+    "tslint-config-prettier": "^1.13.0",
     "typescript": "^2.9.2"
   }
 }
