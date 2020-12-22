@@ -35,5 +35,29 @@ The practice clone code for Uber server with GraphQL, Typescript and Nodejs
 - [x] Get Chat Room Messages
 - [x] Subscribe to Chat Room Messages
 - [x] Send a Chat Message
-- [ ] Get Ride History
-- [ ] See Ride Detail
+- [x] Get Ride History
+- [x] See Ride Detail
+
+---
+
+## Build Setup
+
+``` bash
+# typescirpt compiler (yarn run types)
+yarn predev
+
+# serve with hot reload at localhost:8080
+yarn dev
+
+# delete local dist folder
+yarn prebuild
+
+# exec tsc
+yarn build
+
+# graphql files copy & paste
+yarn postbuild
+
+# local start node server
+yarn start
+```
